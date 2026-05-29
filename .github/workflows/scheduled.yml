@@ -2,8 +2,8 @@ name: Rain Alert
 
 on:
   schedule:
-    - cron: "0 6 * * *"  # jeden Tag um 7:00 Uhr Wien-Zeit (6 UTC)
-  workflow_dispatch:       # ermöglicht manuelles Starten per Knopfdruck
+    - cron: "0 4 * * *"  
+  workflow_dispatch:       
 
 jobs:
   run-rain-alert:
